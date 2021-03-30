@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Features\Login\**" />
+    <Content Remove="Features\Login\**" />
+    <EmbeddedResource Remove="Features\Login\**" />
+    <None Remove="Features\Login\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Extensions\HtmlHelpers.cs" />
+    <Compile Remove="Features\Shared\Interfaces\IMailService.cs" />
+    <Compile Remove="Features\Shared\Services\MailService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Features\Shared\Views\_Facet.cshtml" />
+    <Content Remove="Features\Shared\Views\_Grid.cshtml" />
+    <Content Remove="Features\Shared\Views\_LoginLayout.cshtml" />
+    <Content Remove="Features\Shared\Views\_Pager.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="EPiServer.Cms.UI.AspNetIdentity" Version="12.0.0-inte-017361" />
+    <PackageReference Include="EPiServer.Cms.Web" Version="12.0.0-inte-017361" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Features\Pages\" />
+    <Folder Include="Features\Shared\Models\" />
+    <Folder Include="Configs\" />
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\js\features\" />
+    <Folder Include="wwwroot\vendors\" />
+  </ItemGroup>
+</Project>

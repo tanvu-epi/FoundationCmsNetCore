@@ -1,0 +1,6 @@
+2021-03-29 16:42:30.719 +07:00 [INF] Running initialize-cms command.
+2021-03-29 16:42:31.326 +07:00 [INF] initialize-cms has completed.
+2021-03-30 11:46:59.633 +07:00 [INF] Running initialize-cms command.
+2021-03-30 11:47:01.868 +07:00 [INF] initialize-cms has completed.
+2021-03-30 14:51:33.869 +07:00 [INF] Running initialize-cms command.
+2021-03-30 14:51:34.497 +07:00 [INF] initialize-cms has completed.
